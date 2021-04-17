@@ -3,6 +3,13 @@ const inquirer = require('inquirer');
 // const jest = require('jest');
 
 
+//* import employee classes here 
+const Employee = require('./lib/Employee');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
+const Manager = require('./lib/Manager');
+    
+
 //* build manager questions using Inquirer
 const managerQuestions = [
     {
