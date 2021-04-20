@@ -26,12 +26,12 @@ Two NPM packages are used in this app:
 
 [Watch the Test video!](https://vimeo.com/538977696)
 
-[Check out the Jest test](https://zno.s3-us-west-1.amazonaws.com/jest.png)
-
 
 ## Screenshots
 
 ![Generator](https://zno.s3-us-west-1.amazonaws.com/Team-Profile-Generator.png)
+
+![Test](https://zno.s3-us-west-1.amazonaws.com/jest.png)
 
 
 
@@ -51,6 +51,20 @@ Two NPM packages are used in this app:
 ☑️ Git - Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
 ⛅️ GitHub - GitHub, Inc. is a provider of Internet hosting for software development and version control using Git.
+
+## Code Snippet 
+
+~~~
+.then(answers => {
+        
+        // pass in our answers to a new var for the content
+        const htmlContent = generateHTML(answers);
+        // write to the FS
+        fs.writeFile('team.html', htmlContent, (err) =>
+        err ? console.log(err) : console.log('Awesome! You successfully created your team!')
+        );
+    });
+~~~
 
 
 ## Author
