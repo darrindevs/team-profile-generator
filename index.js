@@ -22,12 +22,12 @@ const generateHTML = (answers) =>
         <title>My Team</title>
       </head>
       <body>
-        <header id="team-title" class="card-header text-white bg-primary mb-3" style="text-align: center;">
+        <header id="team-title" class="card-header text-white bg-primary mb-5" style="text-align: center;">
           <h1>My Team</h1>
         </header>
         <div class="d-flex container">
       <div class="card m-auto shadow" style="width: 18rem;">
-      <div class="card-header card-color mb-5">
+      <div class="card-header card-color">
         <h1>${answers.mName}</h1>
         <h2><i class="fas fa-mug-hot me-3"></i>Manager</h2>
       </div>
@@ -94,7 +94,7 @@ inquirer
         {
             type: 'input',
             message: 'What is the team manager\'s id?',
-            name: 'mID',
+            name: 'mId',
             // validate
             validate: (answer) => {
                 if (isNaN(answer)) {
@@ -150,7 +150,7 @@ inquirer
         {
             type: 'input',
             message: 'What is the engineer\'s id?',
-            name: 'eID',
+            name: 'eId',
             // validate
             validate: (answer) => {
                 if (isNaN(answer)) {
