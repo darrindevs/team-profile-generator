@@ -2,7 +2,12 @@
 
 ## About
 
-This command line app takes user input to dynamically generate an HTML file with team profiles for a company.
+This command line app takes user input to dynamically generate an HTML file with team profiles for a company. 
+
+Two NPM packages are used in this app:
+
+- Inquirer for user questions and input.
+- Jest for testing. 
 
 ## How to Install
 
@@ -15,9 +20,13 @@ This command line app takes user input to dynamically generate an HTML file with
 
 ## Walkthrough Video
 
-[Watch the video!](https://vimeo.com/538958935)
+[Watch the Generator video!](https://vimeo.com/538958935)
 
 [Check out the HTML](https://www.dropbox.com/s/oh7keejzcaa2k0g/team.html?dl=0)
+
+[Watch the Test video!](https://vimeo.com/538977696)
+
+[Check out the Jest test](https://zno.s3-us-west-1.amazonaws.com/jest.png)
 
 
 ## Screenshots

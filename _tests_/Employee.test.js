@@ -7,4 +7,5 @@ describe("Employee class", () => {
         // assert 
         expect(typeof (employee)).toBe("object");
     })
+    
 });
